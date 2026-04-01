@@ -34,9 +34,29 @@ header, footer{
   font-weight: 700;
   padding: 10px;
   font-family: PRIMETIME, sans-serif;
+  text-transform: uppercase;
   font-weight: 900;
   font-style: normal;
+  
   color: #FFFFFF;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  padding: 1rem;
+  overflow: hidden;
 }
 
 h1 {
